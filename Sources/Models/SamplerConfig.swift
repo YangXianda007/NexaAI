@@ -19,7 +19,7 @@ import Foundation
 */
 
 /// Text generation sampling parameters
-public struct SamplerConfig {
+public struct SamplerConfig: Codable {
     public var temperature: Float
     public var topP: Float
     public var topK: Int32

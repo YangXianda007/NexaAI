@@ -17,7 +17,7 @@ typedef struct {
 */
 
 /// LLM / VLM generation configuration
-public struct GenerationConfig {
+public struct GenerationConfig: Codable {
     public var maxTokens: Int32                 // Maximum tokens to generate
     public var stop: [String]                   // Array of stop sequences
     public var nPast: Int32                     // Number of past tokens to consider

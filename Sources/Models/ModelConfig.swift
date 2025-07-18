@@ -14,7 +14,7 @@
  */
 import NexaBridge
 
-public struct ModelConfig {
+public struct ModelConfig: Codable {
     public var nCtx: Int32
     public var nThreads: Int32
     public var nThreadsBatch: Int32
