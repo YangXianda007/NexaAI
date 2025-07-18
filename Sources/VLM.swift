@@ -274,6 +274,7 @@ final public class VLM {
             ml_vlm_destroy(handle)
             ml_deinit()
         }
+        handle = nil
     }
 
     deinit {

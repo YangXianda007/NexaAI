@@ -360,6 +360,7 @@ final public class LLM {
             ml_llm_destroy(handle)
             ml_deinit()
         }
+        handle = nil
     }
 
     deinit {
