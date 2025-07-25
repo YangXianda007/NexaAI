@@ -26,7 +26,7 @@ public struct GenerationConfig: Codable {
     public var audioPaths: [String]            // Array of audio paths for VLM
 
     public init(
-        maxTokens: Int32 = 128,
+        maxTokens: Int32 = 1024,
         stop: [String] = [],
         nPast: Int32 = 0,
         samplerConfig: SamplerConfig = .default,

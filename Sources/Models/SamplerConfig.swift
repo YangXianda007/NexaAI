@@ -40,9 +40,9 @@ public struct SamplerConfig: Codable {
         topP: Float = 0.95,
         topK: Int32 = 40,
         minP: Float = 0.05,
-        repetitionPenalty: Float = 1.0,
-        presencePenalty: Float = 0.0,
-        frequencyPenalty: Float = 0.0,
+        repetitionPenalty: Float = 1.2,
+        presencePenalty: Float = 0.9,
+        frequencyPenalty: Float = 0.2,
         seed: Int32 = 0,
         grammarPath: String? = nil,
         grammarString: String? = nil
